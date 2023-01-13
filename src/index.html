@@ -21,14 +21,19 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 </head>
 
-<body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="js/app.js"></script>
+<body>
+	<p id="text" hidden>u are a bitch</p>
+	<div id="black" hidden>
+		<div id="light" hidden></div>
+	</div>	
+	<img onclick="onSwitch()" id="img" src="./swonch.jpeg" />
+
+	<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+	<script src="js/app.js"></script>
 
 </body>
 
