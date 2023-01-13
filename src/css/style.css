@@ -32,3 +32,6 @@ p {
 	margin: 25vh auto;
 	font-size: 25vw;
 }
+#img {
+	width: 100%;
+}
